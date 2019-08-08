@@ -1,0 +1,168 @@
+浮动 图文环绕 图片设置float 后 让图片以文本基线对齐 vertical-align:middle  
+浮动解决方案:
+/* 给父元素设置overflow:hidden;   需要用BFC 来解释*/
+
+css工作中常用的效果总结https://blog.csdn.net/newbie_ling/article/details/78687326
+overflow-x
+ 
+max-width
+
+行高为1
+字体font简写
+
+iframe
+
+锚点  锚链接
+
+移动端适配
+https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html
+px em rem pt
+
+命名规范https://imweb.github.io/rule
+
+视口 视图窗口的单位 vw  vh  100vh
+
+
+css超出区域 自动换行
+
+word-spacing
+
+text-indent
+
+链接伪类
+a:link {color: black}     /* 未访问的链接 */
+a:visited {color: blue}  /* 已访问的链接 */
+a:hover {color: red}    /* 当有鼠标悬停在链接上 */
+a:active {color: purple}   /* 被选择的链接 */
+
+
+background-origin
+background-clip
+
+
+css sprite  图像拼合精灵 雪碧图 
+
+纯CSS完美实现垂直水平居中的6种布局方式
+
+如何居中一个浮动元素??
+
+pointer-event  了解
+
+
+direction 字体排版方向
+
+
+图片都加上
+alt  title
+
+
+ie盒模型  
+W3C模型
+
+box-sizing
+
+
+https://segmentfault.com/a/1190000009636727
+display： box
+          flex
+
+外边距合并 
+
+border-radius
+
+
+css3字体@font-face
+
+
+white-space
+text-overflow用于文本溢出:
+单行缩略的实现如下:
+.oneline {
+    white-space: nowrap; //强制文本在一行内输出
+    overflow: hidden; //隐藏溢出部分
+    text-overflow: ellipsis; //对溢出部分加上...
+}
+多行缩略实现如下(主要针对webkit内核):
+
+.multiline {
+    display: -webkit-box !important;
+    overflow: hidden;
+    
+    text-overflow: ellipsis;
+    word-break: break-all;
+    
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+
+
+
+filter  滤镜 
+
+
+css3实现一个div设置多张背景图片及background-image属性
+
+/* 盒子、文本阴影 */
+
+
+
+textarea禁止拖动
+
+
+文字倒影效果box-reflect
+
+
+!important
+
+
+border画三角形
+
+after  before  content  attr    \25e4
+
+
+重置样式
+rest normalize.css
+
+理解 line-height 和 vertical-align
+https://segmentfault.com/a/1190000017512478
+  line box：
+  inline(-level) box：
+  content area：
+  baseline：
+
+
+
+简单说 CSS中的 object-fit 与 object-position
+https://segmentfault.com/a/1190000011874066
+
+src和href的区别
+
+doctype作用，标准模式与兼容模式各有什么区别
+
+页面导入样式时，使用link 和 @import有什么区别
+
+事件穿透pointer-events
+
+变量
+CSS:root{--bgColor: #90ffc1;}.box {background:var(--bgColor);}//HTML
+
+视口单位vw vh
+
+变量 calc
+
+mix-blend-mode 混合模式详解
+https://blog.csdn.net/qq_36735409/article/details/78249083
+
+透视perspective
+transform-style:preserve-3d
+backface-visibility:hidden
+
+矩阵 贝塞尔 
+
+
+css3 
+用户界面 resize
+取消下拉框边框 -webkit-appearance
+
+圣杯布局 双飞燕布局
